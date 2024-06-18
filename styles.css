@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7a2a2;
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 50%;
+}
+
+.gallery-item {
+    background-color: #1a0c0c;
+    padding: 30px;
+}
+
+.gallery-item img {
+    width: 10cm;
+    height: 10cm;
+}
+
